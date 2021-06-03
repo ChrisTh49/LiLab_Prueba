@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.form-control{
+  padding: 15px;
+}
+
+.form-control label{
+  font-size: 20px;
+}
+
+.form-control input{
+  padding: 15px;
+}
+
+.btn{
+  padding: 15px;
+}
+
+.navigation{
+  background-color: #231e23;
+  height: 90px;
+  padding-top: 18px;
+}
+
+.navigation ul{
+  display: flex;
+}
+
+.navigation a, li{
+  text-decoration: none;
+  list-style: none;
+  padding-right: 10px;
+  font-size: 25px;
+  color: #fff;
+}
